@@ -1,21 +1,31 @@
-# RocketMod
+# Legally Distinct Missile
 
-This is the officially maintained version of **RocketMod** for Unturned. [Read the installation instructions here.](https://github.com/SmartlyDressedGames/U3-Docs/blob/master/RocketMod.md) 
+The **Legally Distinct Missile** (or LDM) is a fork of Rocket for Unturned maintained by the game developers (SDG) after the resignation of its original community team. Using this fork is recommended because it preserves compatibility, and has fixes for important legacy Rocket issues like multithreading exceptions and teleportation exploits.
 
-On the 20th of December 2019 Sven Mawby "fr34kyn01535" and Enes Sadık Özbek "Trojaner" officially ceased maintenance of RocketMod. They have kindly released the source code under the MIT license. [Read their full farewell statement here.](https://github.com/RocketMod/Rocket/blob/master/Farewell.md)
+## Installation
 
-# Contributing
+The dedicated server includes the latest version, so an external download is not necessary:
+1. Copy the Rocket.Unturned module from the game's Extras directory.
+2. Paste it into the game's Modules directory.
+
+## Contributing
 
 The goals of this repository are to maintain compatibility with Unturned, maintain backwards compatibility with plugins, and fix bugs. Changes outside that scope will be made to the Unturned API rather than reworking the Rocket API. New plugins should ideally be using the game API where possible.
 
 Issues are monitored and will be discussed, but pull requests will not be directly merged.
 
-# License
+## Resources
 
-Copyright 2019 Sven Mawby <sven@mawby.eu>
+fr34kyn01535 has listed all of the original plugins in a post to the /r/RocketMod subreddit: [List of plugins from the old repository](https://www.reddit.com/r/rocketmod/comments/ek4i7b/)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Following closure of the original forum the recommended sites for developer discussion are the [/r/UnturnedLDM](https://www.reddit.com/r/UnturnedLDM/) subreddit, [SDG Forum](https://forum.smartlydressedgames.com/c/modding/ldm), or the [Steam Discussions](https://steamcommunity.com/app/304930/discussions/17/).
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The RocketMod organization on GitHub hosts several related archived projects: [RocketMod (Abandoned)](https://github.com/RocketMod)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## History
+
+On the 20th of December 2019 Sven Mawby "fr34kyn01535" and Enes Sadık Özbek "Trojaner" officially ceased maintenance of Rocket. They kindly released the source code under the MIT license. [Read their full farewell statement here.](https://github.com/RocketMod/Rocket/blob/master/Farewell.md)
+
+Following their resignation SDG forked the repository to continue maintenance in sync with the game.
+
+On the 2nd of June 2020 fr34kyn01535 requested the fork be rebranded to help distance himself from the project.
